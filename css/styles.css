@@ -1,32 +1,36 @@
-html{
-  margin: 0;
-  padding: 0;
+*{
+   box-sizing: border-box;
 }
 body{
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: rgb(0, 0, 0);
-  margin: 0 10px 0 10px ;
+  margin: 0 10px;
   padding: 0;
 }
 h1{
   color: rgb(53, 51, 51);
 }
 .carte-produit{
-  box-sizing: border-box;
   width: 200px;
   padding: 10px;
   margin: 15px;
   background-color: rgb(249, 225, 252);
+  border: 3px double #f8c5ff;
   border-radius: 7px;
 }
 .carte-produit h3{
   margin-top: 0;
 }
+.carte-produit a{
+  font-size: 15px;
+}
 .carte-produit img{
+  max-width :169px;
+  height: 150px;
   margin: 5px;
 }
 .lien-actif, nav a {
-  color: rgb(197, 105, 0);
+  color: rgb(133, 71, 0);
 }
 .prix{
   color: rgb(53, 51, 51);
@@ -34,11 +38,16 @@ h1{
   font-weight: bold;
 }
 .header{
+  padding: 10px;
   background-color: rgb(249, 225, 252);
   text-align: center;
 }
+.header ul li{
+  display: inline;
+  padding: 0 10px;
+}
 .footer{
-  height: 50px;
+  padding: 10px;
   background-color: rgb(249, 225, 252);
   text-align: center;
 }
